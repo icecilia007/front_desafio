@@ -1,0 +1,70 @@
+.pagination{
+    background-color: #f1f1f1;
+    width: 100%;
+    font-weight: 500;
+    text-align: left;
+    font-size: 16px;
+    color: #4c5baf;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.buttonPages{
+    border: none;
+    padding: 7px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-left: 4px;
+    display: flex;
+}
+.active {
+  color: white;
+  background: #4c5baf;
+}
+.buttonPag {
+  border: none;
+  padding: 7px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.inactive {
+  color: #4c5baf;
+  background: #f9f9f9;
+}
+.tableHeader {
+    background-color: #f1f1f1;
+    padding: 12px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+  }
+  .tableHeader:first-child {
+    border-top-left-radius: 15px;
+  }
+  
+  .tableHeader:last-child {
+    border-top-right-radius: 15px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  @media only screen and (max-width: 600px) {
+    th,
+    td {
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    th,
+    td {
+      font-size: 10px;
+    }
+  }
